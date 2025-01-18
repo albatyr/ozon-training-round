@@ -1,0 +1,14 @@
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\bin\Debug\net7.0\1.RemoveDigitFromNumber.exe
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\bin\Debug\net7.0\1.RemoveDigitFromNumber.deps.json
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\bin\Debug\net7.0\1.RemoveDigitFromNumber.runtimeconfig.json
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\bin\Debug\net7.0\1.RemoveDigitFromNumber.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\bin\Debug\net7.0\1.RemoveDigitFromNumber.pdb
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.AssemblyInfoInputs.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.AssemblyInfo.cs
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.csproj.CoreCompileInputs.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\refint\1.RemoveDigitFromNumber.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.pdb
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\1.RemoveDigitFromNumber.genruntimeconfig.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\1.RemoveDigitFromNumber\obj\Debug\net7.0\ref\1.RemoveDigitFromNumber.dll

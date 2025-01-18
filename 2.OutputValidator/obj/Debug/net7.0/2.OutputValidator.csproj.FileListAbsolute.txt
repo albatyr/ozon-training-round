@@ -1,0 +1,14 @@
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\bin\Debug\net7.0\2.OutputValidator.exe
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\bin\Debug\net7.0\2.OutputValidator.deps.json
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\bin\Debug\net7.0\2.OutputValidator.runtimeconfig.json
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\bin\Debug\net7.0\2.OutputValidator.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\bin\Debug\net7.0\2.OutputValidator.pdb
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.AssemblyInfoInputs.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.AssemblyInfo.cs
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.csproj.CoreCompileInputs.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\refint\2.OutputValidator.dll
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.pdb
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\2.OutputValidator.genruntimeconfig.cache
+D:\Sources\My\algorithms\ozon\Ozon.TrainingRound\2.OutputValidator\obj\Debug\net7.0\ref\2.OutputValidator.dll

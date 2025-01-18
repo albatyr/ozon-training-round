@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.RemoveDigitFromNumber", "1.RemoveDigitFromNumber\1.RemoveDigitFromNumber.csproj", "{119CA8C9-6B1D-438F-9A60-72144AAA350F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.OutputValidator", "2.OutputValidator\2.OutputValidator.csproj", "{5E7CD832-7066-482B-9119-22F25EFC7D6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.CountInfectedFiles", "3.CountInfectedFiles\3.CountInfectedFiles.csproj", "{C942BE26-9819-406E-AAD5-957BD3946868}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{119CA8C9-6B1D-438F-9A60-72144AAA350F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{119CA8C9-6B1D-438F-9A60-72144AAA350F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{119CA8C9-6B1D-438F-9A60-72144AAA350F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{119CA8C9-6B1D-438F-9A60-72144AAA350F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7CD832-7066-482B-9119-22F25EFC7D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7CD832-7066-482B-9119-22F25EFC7D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7CD832-7066-482B-9119-22F25EFC7D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7CD832-7066-482B-9119-22F25EFC7D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C942BE26-9819-406E-AAD5-957BD3946868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C942BE26-9819-406E-AAD5-957BD3946868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C942BE26-9819-406E-AAD5-957BD3946868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C942BE26-9819-406E-AAD5-957BD3946868}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
