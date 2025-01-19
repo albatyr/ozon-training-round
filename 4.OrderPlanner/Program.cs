@@ -32,7 +32,7 @@ bool TryReadAndValidateTestData(StreamReader input, out TestData data)
     if (arrivalsLine == null || arrivalsLine.Length != ordersCount)
         return false;
 
-    var orders = new SortedSet<Order>(new OrderComparer());
+    var orders = new List<Order>(ordersCount);
 
     for (var i = 0; i < ordersCount; i++)
     {
@@ -45,7 +45,7 @@ bool TryReadAndValidateTestData(StreamReader input, out TestData data)
     if (!int.TryParse(input.ReadLine(), out var trucksCount) || trucksCount is < min or > maxTrucks)
         return false;
 
-    var trucks = new SortedSet<Truck>(new TruckComparer());
+    var trucks = new List<Truck>(trucksCount);
 
     for (var i = 0; i < trucksCount; i++)
     {
@@ -66,33 +66,41 @@ bool TryReadAndValidateTestData(StreamReader input, out TestData data)
     }
 
     data = new TestData { Orders = orders, Trucks = trucks };
+    
     return true;
 }
 
 List<Order> AssignOrdersToTrucks(TestData data)
-{
-    foreach (var order in data.Orders)
-    {
-        var suitableTruck = data.Trucks
-            .FirstOrDefault(t => t.Start <= order.Arrival && t.End >= order.Arrival && t.Capacity > 0);
+{    
+    var orders = data.Orders.OrderBy(x => x.Arrival).ToList();
+    var trucks = data.Trucks.OrderBy(x => x.Start).ThenBy(x => x.Id).ToList();
 
-        if (suitableTruck == null)
+    var truckIndex = 0;
+    
+    foreach (var order in orders)
+    {        
+        while (truckIndex < trucks.Count && trucks[truckIndex].Start <= order.Arrival)
         {
-            order.TruckId = -1;
-            continue;
+            var truck = trucks[truckIndex];
+
+            if (truck.End >= order.Arrival && truck.Capacity > 0)
+            {
+                order.TruckId = truck.Id;
+                truck.Capacity--;
+                break;
+            }
+
+            truckIndex++;
         }
-
-        order.TruckId = suitableTruck.Id;
-        suitableTruck.Capacity--;
     }
-
-    return data.Orders.OrderBy(x => x.Id).ToList();
+    
+    return orders.OrderBy(x => x.Id).ToList();
 }
 
 class TestData
 {
-    public SortedSet<Order> Orders { get; set; }
-    public SortedSet<Truck> Trucks { get; set; }
+    public List<Order> Orders { get; set; }
+    public List<Truck> Trucks { get; set; }
 }
 
 class Truck
@@ -108,28 +116,4 @@ class Order
     public int Id { get; set; }
     public int Arrival { get; set; }
     public int TruckId { get; set; } = -1;
-}
-
-class OrderComparer : IComparer<Order>
-{
-    public int Compare(Order x, Order y)
-    {
-        var result = x.Arrival.CompareTo(y.Arrival);
-
-        if (result != 0) return result;
-
-        return x.Id.CompareTo(y.Id);
-    }
-}
-
-class TruckComparer : IComparer<Truck>
-{
-    public int Compare(Truck x, Truck y)
-    {
-        var result = x.Start.CompareTo(y.Start);
-
-        if (result != 0) return result;
-
-        return x.Id.CompareTo(y.Id);
-    }
 }
